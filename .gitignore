@@ -1,0 +1,30 @@
+# Node
+node_modules/
+
+# Angular
+dist/
+.angular/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+
+# Environment files (avoid committing secrets) - keep default environment.ts but ignore local overrides
+src/environments/*local*.ts
+
+# Optional lockfiles
+package-lock.json
+
+# Build output
+out-tsc/
+
+# Mac
+*.DS_Store
