@@ -41,33 +41,3 @@ npm run build
 # or
 ng build --configuration production
 ```
-
-Git / Remote
-- A `.gitignore` has been added and an initial commit created.
-- To publish to GitHub (example):
-
-```bash
-git remote add origin https://github.com/<your-username>/angular-auth-dashboard.git
-git branch -M main
-git push -u origin main
-```
-
-Useful scripts (package.json)
-- `start` / `ng serve` — run dev server
-- `build` / `ng build` — build app
-
-TODO (short)
-- Replace `prompt()`/`confirm()` stubs with Angular Material dialogs and Reactive Forms for full CRUD UX.
-- Implement pagination and server-side filtering.
-- Add global header/sidebar and persist UI state.
-- Remove dev fallback in `AuthService` before production.
-- Add CI (GitHub Actions) for build & lint checks.
-
-Where to look
-- `src/app/auth` — login UI and module
-- `src/app/core` — `auth.service.ts`, `auth.interceptor.ts`, `auth.guard.ts`
-- `src/app/dashboard` — users list and dashboard module
-- `src/app/shared` — loading component and shared models
-
-Contact
-- If you want, I can push the repo to GitHub for you — provide the remote URL or allow me to create it.
